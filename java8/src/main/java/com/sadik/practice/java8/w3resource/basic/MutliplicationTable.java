@@ -22,6 +22,8 @@ public class MutliplicationTable {
         for(int i = 1; i <= 10 ; i++){
             System.out.println(n + " x " + i + " = " + product(n, i));
         }
+
+        input.close();
     }
 
     public static int product(int a, int b){

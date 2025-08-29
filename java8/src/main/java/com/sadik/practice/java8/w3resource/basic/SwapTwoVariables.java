@@ -15,6 +15,14 @@ public class SwapTwoVariables {
         a = b;
         b = temp;
 
+        //Without using temp variable
+        /*
+        * a = a + b;  15 + 16 = 31
+        * b = a - b;  31 - 16 = 15
+        * a = a - b;  31 - 15 = 16
+        * */
+
         System.out.println("After swapping : a, b = " + a + ", " + b);
+
     }
 }
