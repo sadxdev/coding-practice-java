@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class ValidAnagram {
     public static void main(String[] args) {
         String str1 = "alert";
-        String str2 = "laterr";
+        String str2 = "later";
         System.out.println(areAnagrams(str1, str2));
     }
 

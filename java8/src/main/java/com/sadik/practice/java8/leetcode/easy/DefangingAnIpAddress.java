@@ -7,17 +7,18 @@ public class DefangingAnIpAddress {
     }
 
     public static String ipdefang(String address){
+
         StringBuilder sb = new StringBuilder(address.length() + 6);
 
         for(int i = 0; i < address.length(); i++){
             char c = address.charAt(i);
+
             if(c == '.'){
                 sb.append('[').append('.').append(']');
-            } else {
+            }else{
                 sb.append(c);
             }
         }
-
         return sb.toString();
     }
 
