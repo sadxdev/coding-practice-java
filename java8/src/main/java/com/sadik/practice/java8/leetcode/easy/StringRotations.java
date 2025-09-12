@@ -1,5 +1,6 @@
 package com.sadik.practice.java8.leetcode.easy;
 
+// Leetcode - 796
 public class StringRotations {
     public static void main(String[] args) {
         String s = "abcde";
