@@ -1,5 +1,5 @@
 package com.sadik.practice.java8.leetcode.easy;
-
+//LC - 283
 public class MoveZeros {
     public static void main(String[] args) {
         int[] nums = {0,1,0,3,12};
@@ -13,7 +13,7 @@ public class MoveZeros {
     private static void moveZeros(int[] nums) {
         int write = 0;
 
-        for(int read = 0; read < nums.length; nums++){
+        for(int read = 0; read < nums.length; read++){
             if(nums[read] != 0){
                 nums[write++] = nums[read];
             }
