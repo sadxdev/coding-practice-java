@@ -20,4 +20,5 @@ public class MaximumAverageSubArrayI {
         }
         return maxSum / k ;
     }
+
 }
