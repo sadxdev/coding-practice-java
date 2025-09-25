@@ -1,5 +1,5 @@
 package com.sadik.practice.java8.leetcode.easy;
-
+//LC- 1071
 public class GreatestCommonDivisorofStrings {
     public static void main(String[] args) {
         String str1 = "ABCABC", str2 = "ABC";
