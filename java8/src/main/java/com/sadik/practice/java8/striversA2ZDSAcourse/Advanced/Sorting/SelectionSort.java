@@ -1,4 +1,4 @@
-package com.sadik.practice.java8.striversA2ZDSAcourse.Sorting;
+package com.sadik.practice.java8.striversA2ZDSAcourse.Advanced.Sorting;
 
 import java.util.Arrays;
 
